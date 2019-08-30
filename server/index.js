@@ -7,6 +7,7 @@ const port = 4444
 
 
 app.get('/api/products',getProducts)
+
 app.get('/api/product/:id',getProduct)
 
 
